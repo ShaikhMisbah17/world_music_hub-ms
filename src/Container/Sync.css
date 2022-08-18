@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Unica+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.sync {
+  width: 100%;
+  height: fit-content;
+  background: #2c2c2e;
+}
+
+.sync__banner {
+  width: 100%;
+  height: 144px;
+  background: #2c2c2e;
+  box-shadow: 8px 8px 16px #232325;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.sync__nav {
+  width: 100%;
+  /* height: 62px; */
+}
+
+.sync__banner > h2 {
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+}
+
+.sync__banner > h4 {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+}
+
+.banner__yellowtext {
+  color: #d9a86c;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-section {
+  width: 100%;
+  flex: 0 1 20%;
+  margin-top: 7px;
+  padding: 18px;
+}
+
+.leftside__image-section1 {
+  height: 648px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 11.93px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.leftside__image-section2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  gap: 12.18px;
+}
+
+.leftside::-webkit-scrollbar {
+  display: none;
+}
+
+.project-showcase {
+  color: #d9a86c;
+  transform: rotate(-90deg);
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  position: absolute;
+  bottom: 3.29px;
+  left: 0px;
+}
+
+.divider {
+  margin-top: 20px;
+  height: 600px;
+  border: 1px solid #393939;
+  box-shadow: 3px 3px 6px #151516, -3px -3px 6px #434346;
+}
+
+.right-section {
+  margin-top: 20px;
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-1 {
+  flex: 0 1 40%;
+  /* border: 1px solid blue; */
+}
+
+.right-section__top-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+}
+
+.display-image {
+  width: 303px;
+  height: 431px;
+  border-radius: 18.168px;
+}
+
+.col-2 {
+  flex: 0 1 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.display-image__description {
+  width: 100%;
+  /* border: 1px solid greenyellow; */
+}
+
+.row-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-alignment > h3 {
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 32px;
+  color: #d9a86c;
+  margin-top: 10px;
+}
+
+.yellow-line {
+  width: 56.88px;
+  height: 0px;
+  border: solid #d9a86c;
+  border-radius: 10px;
+}
+
+.display-image__description > h5 {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #797979;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.description__details {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+.title__song {
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.songs-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 28px;
+  height: 135.24px;
+  overflow-y: scroll;
+}
+
+.song-details {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #797979;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.songs-list__left {
+  flex: 0 1 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10.79px;
+}
+
+.songs-list__right {
+  flex: 0 1 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10.79px;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 3.17px;
+}
+
+.divider-2 {
+  opacity: 0.2;
+  border: 1px solid #797979;
+  height: 280px;
+}
+
+.songs-list::-webkit-scrollbar {
+  width: 20px;
+}
+
+.songs-list::-webkit-scrollbar-track {
+  border-radius: 9px;
+  background: #2c2c2e;
+  box-shadow: inset 5px 5px 10px #212122, inset -5px -5px 10px #37474a;
+}
+
+.songs-list::-webkit-scrollbar-thumb {
+  background: #d9a86c;
+  border-radius: 9px;
+}
+
+.divider-3 {
+  width: 312px;
+  border-radius: 1px;
+  background: #797979;
+  margin: 31px auto 0;
+}
+
+.film-festival-section {
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 11px auto 0;
+}
+
+.film-frames {
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+  margin-top: 13px;
+}
+
+.film-frames > img {
+  width: 197.55px;
+  height: 86.05px;
+}

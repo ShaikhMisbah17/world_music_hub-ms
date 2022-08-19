@@ -1,5 +1,5 @@
 import React from "react";
-import Sync from "./Container/Sync";
+import Sync from "./container/Sync";
 import "./App.css";
 
 function App() {

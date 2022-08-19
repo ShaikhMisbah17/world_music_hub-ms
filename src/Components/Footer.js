@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import twitter from "../Assets/twitter.png";
-import vector from "../Assets/vector.png";
-import instagram from "../Assets/instagram.png";
+import twitter from "../assets/twitter.png";
+import vector from "../assets/vector.png";
+import instagram from "../assets/instagram.png";
 
 const Footer = () => (
   <div className="footer">

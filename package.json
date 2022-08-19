@@ -2,6 +2,7 @@
   "name": "world_music_hub-ms",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shaikhmisbah17.github.io/world_music_hub-ms/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

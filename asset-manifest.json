@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9ed921e.css",
+    "main.js": "/static/js/main.b8ff9326.js",
+    "static/media/ncis2.png": "/static/media/ncis2.8595d2bc954ff8d35bd9.png",
+    "static/media/hornPlease.png": "/static/media/hornPlease.610e6ea2fec88a8565ba.png",
+    "static/media/monsoonShootout.png": "/static/media/monsoonShootout.f2d90ab7cddda3b5d875.png",
+    "static/media/giftPoster.png": "/static/media/giftPoster.20eea62b3088fab4492f.png",
+    "static/media/thatSunday.png": "/static/media/thatSunday.4920d3326541c50a11d6.png",
+    "static/media/bajiLatestPoster.png": "/static/media/bajiLatestPoster.6878c99c90d73b94c773.png",
+    "static/media/theTwilightZone.png": "/static/media/theTwilightZone.41d3c29002e3b04ce77a.png",
+    "index.html": "/index.html",
+    "main.f9ed921e.css.map": "/static/css/main.f9ed921e.css.map",
+    "main.b8ff9326.js.map": "/static/js/main.b8ff9326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ed921e.css",
+    "static/js/main.b8ff9326.js"
+  ]
+}

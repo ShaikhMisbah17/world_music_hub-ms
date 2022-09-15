@@ -10,6 +10,11 @@
 
 .navbar__wrapper {
   display: flex;
+  column-gap: 540px;
+}
+
+.navbar__left-section {
+  display: flex;
 }
 
 .navbar__logo > img {
@@ -38,7 +43,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 540px;
 }
 
 .search-input {
@@ -76,7 +80,8 @@ a:link {
   text-decoration: none;
 }
 
-.explore {
+.explore,
+.login {
   color: #797979;
   font-family: "Abel";
   font-style: normal;
@@ -92,4 +97,55 @@ a:link {
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
+}
+
+@media screen and (max-width: 834px) {
+  .navbar {
+    width: 100%;
+    height: 57px;
+  }
+  .navbar__wrapper {
+    display: flex;
+    column-gap: 121px;
+  }
+  .navbar__logo > img {
+    height: 33.93px;
+    width: 43.63px;
+    margin: 10px auto 10px 10px;
+  }
+  .navbar__logo-name > h2 {
+    font-size: 21.8182px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+  .navbar__right-section {
+    display: flex;
+    align-items: center;
+  }
+  .search-input {
+    width: 240px;
+    height: 26.21px;
+    font-size: 21.8182px;
+    line-height: 19px;
+    background: #2c2c2e;
+    box-shadow: inset 2.45734px 2.45734px 4.91468px #151516,
+      inset -2.45734px -2.45734px 4.91468px #434346;
+  }
+  .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 304px;
+    top: 20px;
+  }
+  .explore {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .about-us {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
 }

@@ -99,6 +99,10 @@ a:link {
   line-height: 28px;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 834px) {
   .navbar {
     width: 100%;
@@ -106,7 +110,7 @@ a:link {
   }
   .navbar__wrapper {
     display: flex;
-    column-gap: 121px;
+    column-gap: 120px;
   }
   .navbar__logo > img {
     height: 33.93px;
@@ -147,5 +151,11 @@ a:link {
   }
   .login {
     display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .app__navbar-links > li {
+    margin: 0 10px;
   }
 }

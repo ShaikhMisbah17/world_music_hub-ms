@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import "./Navbar.css";
+import hamburger from "../assets/hamburger.png";
 
 const Navbar = () => {
   return (
@@ -44,6 +45,7 @@ const Navbar = () => {
               <a className="login" href="#login">
                 Login
               </a>
+              <img class="hamburger" src={hamburger} />
             </li>
           </ul>
         </div>

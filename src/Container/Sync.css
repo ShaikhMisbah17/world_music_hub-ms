@@ -297,4 +297,25 @@
     font-size: 14px;
     line-height: 18px;
   }
+  .left-section {
+    width: 100%;
+    flex: 0 1 auto;
+    padding-left: 160px;
+  }
+  .leftside__image-section1 {
+    display: none;
+  }
+  .project-showcase {
+    font-size: 18.3173px;
+    line-height: 20px;
+    left: -35px;
+    bottom: 370px;
+  }
+  .frame-images {
+    width: 101.8px;
+    height: 145.1px;
+  }
+  .right-section {
+    flex: 0 2 auto;
+  }
 }

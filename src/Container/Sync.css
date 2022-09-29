@@ -300,7 +300,7 @@
   .left-section {
     width: 100%;
     flex: 0 1 auto;
-    padding-left: 160px;
+    margin-left: -156px;
   }
   .leftside__image-section1 {
     display: none;
@@ -308,7 +308,7 @@
   .project-showcase {
     font-size: 18.3173px;
     line-height: 20px;
-    left: -35px;
+    left: -44px;
     bottom: 370px;
   }
   .frame-images {
@@ -317,5 +317,90 @@
   }
   .right-section {
     flex: 0 2 auto;
+  }
+  .divider {
+    margin-right: 15px;
+  }
+  .right-section__top-wrapper {
+    column-gap: 17px;
+  }
+  .col-1 {
+    flex: 0 1 20%;
+  }
+  .display-image {
+    width: 293px;
+    height: 416.76px;
+    border-radius: 19.2174px;
+  }
+  .col-2 {
+    flex: 0 1 27%;
+  }
+  .row-alignment > h3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: -10px;
+  }
+  .yellow-line {
+    margin-top: -18px;
+  }
+  .row-alignment > img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .display-image__description > h5 {
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 22px;
+  }
+  .description__details {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .title__song {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+  .songs-list {
+    width: 219px;
+    height: 225.4px;
+  }
+  .divider-2 {
+    display: none;
+  }
+  .songs-list__right {
+    display: none;
+  }
+  .songs-list__left {
+    flex: 0 1 75%;
+  }
+  .song-details {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .songs-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  .divider-3 {
+    margin-top: 19.6px;
+    margin-left: 98px;
+  }
+  .film-festival-section {
+    margin-left: 180px;
+  }
+
+  .film-frames {
+    display: flex;
+    flex-direction: row;
+    column-gap: 38px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin: auto 60px;
+  }
+
+  .film-frames > img {
+    width: 184.94px;
+    height: 80.55px;
   }
 }

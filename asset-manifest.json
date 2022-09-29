@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/world_music_hub-ms/static/css/main.09de1685.css",
+    "main.css": "/world_music_hub-ms/static/css/main.e33ce115.css",
     "main.js": "/world_music_hub-ms/static/js/main.02060e83.js",
     "static/media/ncis2.png": "/world_music_hub-ms/static/media/ncis2.8595d2bc954ff8d35bd9.png",
     "static/media/hornPlease.png": "/world_music_hub-ms/static/media/hornPlease.610e6ea2fec88a8565ba.png",
@@ -10,11 +10,11 @@
     "static/media/bajiLatestPoster.png": "/world_music_hub-ms/static/media/bajiLatestPoster.6878c99c90d73b94c773.png",
     "static/media/theTwilightZone.png": "/world_music_hub-ms/static/media/theTwilightZone.41d3c29002e3b04ce77a.png",
     "index.html": "/world_music_hub-ms/index.html",
-    "main.09de1685.css.map": "/world_music_hub-ms/static/css/main.09de1685.css.map",
+    "main.e33ce115.css.map": "/world_music_hub-ms/static/css/main.e33ce115.css.map",
     "main.02060e83.js.map": "/world_music_hub-ms/static/js/main.02060e83.js.map"
   },
   "entrypoints": [
-    "static/css/main.09de1685.css",
+    "static/css/main.e33ce115.css",
     "static/js/main.02060e83.js"
   ]
 }
